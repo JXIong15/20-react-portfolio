@@ -1,6 +1,6 @@
 import Heading from "./components/Heading";
 import Bio from "./components/Bio";
-import Projects from "./components/Projects";
+import Work from "./components/Work";
 import Footer from "./components/Footer";
 import './App.css';
 
@@ -9,7 +9,7 @@ function App() {
     <body>
       <Heading />
       <Bio />
-      <Projects />
+      <Work />
       <Footer />
     </body>
   );
