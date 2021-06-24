@@ -18,10 +18,6 @@ function Contact() {
                         <a href="./Assets/Coding-Resume.pdf" download="Xiong, Jou - Resume">Resume</a>
                     </li>
                 </ul>
-
-                <li class="top-el">
-                    <a href="#top">Back to Top</a>
-                </li>
         </div>
   );
 }

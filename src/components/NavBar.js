@@ -1,11 +1,10 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-function NavTabs() {
+function NavBar() {
   const location = useLocation();
 
   return (
-
     <ul className="nav navbar">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
@@ -32,4 +31,4 @@ function NavTabs() {
   );
 }
 
-export default NavTabs;
+export default NavBar;
