@@ -11,7 +11,6 @@ function Heading() {
         <div id="top">
           <h1>Jou Xiong's Online Portfolio</h1>
         </div>
-        <div>
         <Router>
         <div>
           <NavTabs />
@@ -20,7 +19,6 @@ function Heading() {
           <Route path="/contact" component={Contact} />
         </div>
       </Router>
-        </div>
       </header>
   );
 }

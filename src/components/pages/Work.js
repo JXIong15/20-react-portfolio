@@ -26,8 +26,11 @@ function Work(props) {
         on their pet's criteria. Now, users will be sure that they are matching with equal animal-loving people.
       </p>
 
+      <Arrays />
+      
       <Link to={`${props.match.url}/projects`} role="button" className="btn btn-link">
         Group Projects
+        
       </Link>
       <Link to={`${props.match.url}/my-work`} role="button" className="btn btn-link">
         Individual Work
