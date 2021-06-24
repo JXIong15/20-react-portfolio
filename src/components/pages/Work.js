@@ -1,5 +1,7 @@
 import React from "react";
 import Arrays from "../Arrays";
+import Project from "./Project";
+import Homework from "./Homework";
 import { Link, Route } from "react-router-dom";
 
 function Work(props) {
@@ -17,24 +19,23 @@ function Work(props) {
         application.
       </p>
       <p>
-        We are on our third and final group project: Pinder. GradRight is designed for educators who work
-        with students with different graduation requirements. It allows these educators to have one dashboard to
-        keep track of their students efficiently. My groupmates and I are educators, and we saw a common problem
-        we face. We chose GradRight as a way to solve this problem of disorganized files.
-      </p>
-      <p>
-        Click on the photo to go to the working deployed website. Click on the title to go to the deployed Github Repo.
+        We are on our third and final group project: Pinder. Pinder is like Tinder, except pets are taken 
+        into account. There are many dating apps in the world with various different target groups. With 
+        this generation of love-seekers treating their pets like children, Pinder is designed to take into 
+        account furry family members. Users can set filters on whuch users they'd like to iinteract with based
+        on their pet's criteria. Now, users will be sure that they are matching with equal animal-loving people.
       </p>
 
       <Link to={`${props.match.url}/projects`} role="button" className="btn btn-link">
         Group Projects
-      </Link>{" "}
-      <Link to={`${props.match.url}/my-work`}  role="button" className="btn btn-link">
+      </Link>
+      <Link to={`${props.match.url}/my-work`} role="button" className="btn btn-link">
         Individual Work
       </Link>
-      <Route exact path={`${props.match.url}/learn`} component={Learn} />
+      <Route exact path={`${props.match.url}/project`} component={Project} />
+      <Route exact path={`${props.match.url}/my-work`} component={Homework} />
 
-      
+
     </section>
   )
 };

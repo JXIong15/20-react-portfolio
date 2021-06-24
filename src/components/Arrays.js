@@ -8,6 +8,10 @@ class Arrays extends React.Component {
     render() {
         return (
             <div>
+                <p>
+                    Click on the photo to go to the working deployed website. Click on the title to go to the deployed Github Repo.
+                </p>
+
                 <h3>Group Projects</h3>
                 {/* larger boxes */}
                 <Project
@@ -19,6 +23,7 @@ class Arrays extends React.Component {
                 <Homework
                 // PASS PROJECT NAME, DESCRIPTION, LINKS
                 />
+
             </div>
         )
     }
