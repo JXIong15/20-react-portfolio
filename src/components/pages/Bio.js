@@ -14,17 +14,17 @@ function Bio() {
             <li>Milwaukee, WI</li>
             <li>San Jose, CA</li>
             <li>Chicago, IL</li>
-            <li>Seattle, Washington</li>
+            <li>Seattle, WA</li>
           </ul>
           <li><span>Education: </span></li>
           <ul>
             <li><span>Northwestern University Coding Bootcamp</span>, 2021</li>
             <ul>
-              <li>Certificate of Completion in Full-Stack Web Development</li>
+              <li><span>Certificate of Completion</span> in Full-Stack Web Development</li>
             </ul>
             <li><span>Stanford University</span>, 2019</li>
               <ul>
-                <li><a href="https://symsys.stanford.edu/"><span>Major: </span>Symbolic Systems</a></li>
+                <li><span>Bachelors of Science</span> in <a href="https://symsys.stanford.edu/">Symbolic Systems</a></li>
               </ul>
           </ul>
         </ul>
