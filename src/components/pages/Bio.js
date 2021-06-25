@@ -2,32 +2,25 @@ import React from "react";
 
 function Bio() {
   return (
-    <section id="about" class="layout">
-      <div class="container1">
-        <h2>About Me</h2>
+    <section>
+      <h2>About Me</h2>
+      <div className="about">
         <img src="./Assets/headshot.jpg" alt="headshot" />
-      </div>
-
-      <div class="split"></div>
-
-
-      <p>
         <ul>
           <li><span>Hometown: </span>Milwaukee, WI</li>
           <li><span>Currently Residing: </span>Milwaukee, WI</li>
           <li><span>Desired Locations: </span></li>
-          <ul class="sub">
+          <ul>
             <li>Milwaukee, WI</li>
             <li>San Jose, CA</li>
           </ul>
-        </ul>
-        <ul>
           <li><span>Education: </span>Stanford University, 2019</li>
-          <ul class="sub">
+          <ul>
             <li><a href="https://symsys.stanford.edu/"><span>Major: </span>Symbolic Systems</a></li>
           </ul>
         </ul>
-      </p>
+      </div>
+
       <p>
         Applicable problem-solving has always been an interest of mine I enjoy. After
         some time solely in education, I am ready to get back into STEM through software engineering.
@@ -44,6 +37,15 @@ function Bio() {
         mathermatics in coding too. I hope to better develop my
         coding skills to be able to design and implement more applications in a professional setting.
       </p>
+
+      <div>
+        <img src="./Assets/collage.jpg" alt="collage of my likes" className="collage" />
+        <p className="caption">
+          (I value my family, friends, and significant other. I love my pup. My lifelong hobbies involve
+          Pokemon and sports. Being from Wisconsin, my favorite sports teams are the Miilwaukee Bucks and the
+          Green Bay Packers.)
+        </p>
+      </div>
     </section>
   );
 }
