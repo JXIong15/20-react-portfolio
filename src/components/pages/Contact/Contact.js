@@ -26,10 +26,10 @@ function Contact() {
                         <span>Phone: </span>414-630-8549
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/jou-xiong-109035112/" target="_blank">LinkedIn</a>
+                        Visit <a href="https://www.linkedin.com/in/jou-xiong-109035112/" target="_blank">LinkedIn</a>
                     </li>
                     <li>
-                        <a href="./Assets/Coding-Resume.pdf" download="Xiong, Jou - Resume">Resume</a>
+                        Download <a href="./Assets/Coding-Resume.pdf" download="Xiong, Jou - Resume">Resume</a>
                     </li>
                     <a href="https://formspree.io/" target="_blank"><img src="./Assets/form.png" alt="formspree logo" /></a>
                 </ul>

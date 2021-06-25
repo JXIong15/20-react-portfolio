@@ -17,6 +17,7 @@ footer p,
   margin-bottom: 0;
 }
 
+/* Body */
 section {
   margin: 20px;
   margin-left: 50px;
@@ -87,12 +88,15 @@ h2 {
 
 a.nav-link:hover,
 .about a:hover,
+.contact-form a:hover,
 footer p a:hover {
   font-weight: bold;
   cursor: pointer;
   color: #4ac6d2;
 }
 
+
+/* Contact Page */
 form {
   display: flex;
   flex-direction: column;
@@ -143,3 +147,7 @@ form button {
   font-size: xx-large;
 }
 
+.contact-form a {
+  color: #03747e;
+  text-decoration: none;
+}
