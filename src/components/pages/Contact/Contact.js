@@ -1,5 +1,5 @@
 import React from "react";
-// import Form from "./Form";
+import Form from "./Form";
 
 function Contact() {
     return (
@@ -10,7 +10,7 @@ function Contact() {
                 on my hobbies, interests, and any future development ideas. Just send a message my way!
             </p>
 
-            {/* <Form /> */}
+            <Form />
 
             <ul>
                 <li>
