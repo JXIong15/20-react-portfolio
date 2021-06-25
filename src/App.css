@@ -40,7 +40,7 @@ img {
   height: 275px;
   border-radius: 10px;
   border: solid;
-  border-color: #62acb3;
+  border-color: #03747e;
   border-width: 5px;
 }
 
@@ -81,7 +81,9 @@ h2 {
   text-decoration: underline;
 }
 
-
+.contact {
+  text-align: center;
+}
 
 a.nav-link:hover,
 .about a:hover,
