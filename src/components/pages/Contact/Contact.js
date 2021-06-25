@@ -10,22 +10,31 @@ function Contact() {
                 on my hobbies, interests, and any future development ideas. Just send a message my way!
             </p>
 
-            <Form />
+            <div className="icons">
+                <p> 📧 </p>
+                <p> 📞 </p>
+                <p> 💬 </p>
+            </div>
 
-            <ul>
-                <li>
-                    <span>Email: </span> <a href="mailto: jouxiong15@gmail.com">jouxiong15@gmail.com</a>
-                </li>
-                <li>
-                    <span>Phone: </span>414-630-8549
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/jou-xiong-109035112/" target="_blank">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="./Assets/Coding-Resume.pdf" download="Xiong, Jou - Resume">Resume</a>
-                </li>
-            </ul>
+            <div className="contact-form row">
+                <Form />
+                <ul className="col-sm-12 col-md-4">
+                    <li>
+                        <span>Email: </span> <a href="mailto: jouxiong15@gmail.com">jouxiong15@gmail.com</a>
+                    </li>
+                    <li>
+                        <span>Phone: </span>414-630-8549
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jou-xiong-109035112/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="./Assets/Coding-Resume.pdf" download="Xiong, Jou - Resume">Resume</a>
+                    </li>
+                    <a href="https://formspree.io/" target="_blank"><img src="./Assets/form.png" alt="formspree logo" /></a>
+                </ul>
+
+            </div>
         </section>
     );
 }

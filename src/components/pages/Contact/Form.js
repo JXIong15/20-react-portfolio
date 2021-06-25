@@ -7,14 +7,12 @@ function Form() {
       return <p>Thanks for joining!</p>;
   }
   return (
-      <form onSubmit={handleSubmit}>
-      <label htmlFor="email">
-        Email Address
-      </label>
+      <form onSubmit={handleSubmit} className="col-md-6">
       <input
         id="email"
         type="email" 
         name="email"
+        placeholder="Email"
       />
       <ValidationError 
         prefix="Email" 
@@ -24,6 +22,8 @@ function Form() {
       <textarea
         id="message"
         name="message"
+        placeholder="Message Body"
+        rows="10"
       />
       <ValidationError 
         prefix="Message" 
