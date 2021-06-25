@@ -10,6 +10,7 @@ function Heading() {
     <div>
       <header>
           <h1>Jou Xiong's Online Portfolio</h1>
+          <p>Updated: June 2021</p>
       </header>
         <Router>
         <div>
