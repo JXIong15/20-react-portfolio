@@ -12,7 +12,7 @@ function Work() {
         <h2>My Work</h2>
       </div>
 
-      <a href="https://github.com/JXIong15"><span>My Github Profile</span></a>
+      <a href="https://github.com/JXIong15" className="github" target="_blank"><span>My Github Profile</span></a>
       <p>
         Currently, these are projects I have been working on in my coding bootcamp through Northwestern
         University. I will be adding more projects as I complete them. I have previous

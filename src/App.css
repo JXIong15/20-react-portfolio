@@ -113,13 +113,43 @@ h2 {
   text-decoration: underline;
 }
 
+
+/* Work Page */
+.github {
+  color: black;
+  text-decoration: none;
+}
+
+.github:hover {
+  color: #58066d;
+}
+
+.linkbar {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.linkbar .btn {
+  background-color: #58066d;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+/* DOES NOT WORK */
+.linkbar.a:hover {
+  color: #03747e;
+}
+
+/* Projects */
+
+/* Contact Page */
 .contact {
   text-align: center;
 }
 
-
-
-/* Contact Page */
 form {
   display: flex;
   flex-direction: column;
