@@ -201,6 +201,23 @@ h2 {
   height: 300px;
 }
 
+/* the image glows upon the mouse hovering over it */
+.homework img:hover,
+.project img:hover {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px #4ac6d2;
+    -moz-box-shadow: 0px 0px 30px 0px #4ac6d2;
+    box-shadow: 0px 0px 30px 0px #4ac6d2;
+}
+
+/* to indicate once the project is clicked on */
+.homework img:active,
+.project img:active {
+    border-width: 8px;
+}
+
 
 /* Individual Work */
 .homework img {
