@@ -1,26 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavBar from "./NavBar";
-import Bio from "./pages/Bio";
-import Work from "./pages/Work";
-import Contact from "./pages/Contact/Contact";
 
 function Heading() {
   return (
-    <div>
-      <header>
-          <h1>Jou Xiong's Online Portfolio</h1>
-          <p>Updated: June 2021</p>
-      </header>
-        <Router>
-        <div>
-          <NavBar />
-          <Route exact path="/" component={Bio} />
-          <Route exact path="/work" component={Work} />
-          <Route path="/contact" component={Contact} />
-        </div>
-      </Router>
-      </div>
+    <header>
+      <h1>Jou Xiong's Online Portfolio</h1>
+      <p>Updated: June 2021</p>
+    </header>
   );
 }
 

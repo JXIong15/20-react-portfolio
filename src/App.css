@@ -33,22 +33,22 @@ footer p {
 /* NavBar */
 .nav.navbar {
   justify-content: center;
-  padding: 0;
+  padding-bottom: 10px;
   background-color: #58066d;
   color: #58066d;
   text-align: center;
-  margin-bottom: 0;
 }
 
-a.nav-link,
-a.nav-link:visited,
+.navbar a,
+.navbar a:visited,
 footer a,
 footer a:visited {
   color: white;
   text-decoration: none;
+  padding: 20px;
 }
 
-a.nav-link:hover,
+.navbar a:hover,
 .about a:hover,
 .contact-form a:hover,
 footer p a:hover {

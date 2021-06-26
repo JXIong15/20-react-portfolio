@@ -1,6 +1,6 @@
 import React from "react";
 
-function Homework(props) {
+function Homework() {
   return (
     <div>
       <h2>My Work</h2>

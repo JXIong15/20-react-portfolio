@@ -1,10 +1,11 @@
 import React from "react";
-import Arrays from "../Arrays";
+import Linkbar from "../Linkbar";
 import Project from "./Project";
 import Homework from "./Homework";
-import { Link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 
-function Work(props) {
+
+function Work() {
   return (
     <section>
       <div>
@@ -19,25 +20,18 @@ function Work(props) {
         application.
       </p>
       <p>
-        We are on our third and final group project: Pinder. Pinder is like Tinder, except pets are taken 
-        into account. There are many dating apps in the world with various different target groups. With 
-        this generation of love-seekers treating their pets like children, Pinder is designed to take into 
+        We are on our third and final group project: Pinder. Pinder is like Tinder, except pets are taken
+        into account. There are many dating apps in the world with various different target groups. With
+        this generation of love-seekers treating their pets like children, Pinder is designed to take into
         account furry family members. Users can set filters on whuch users they'd like to iinteract with based
         on their pet's criteria. Now, users will be sure that they are matching with equal animal-loving people.
       </p>
 
-      <Arrays />
-      
-      <Link to={`${props.match.url}/projects`} role="button" className="btn btn-link">
-        Group Projects
-        
-      </Link>
-      <Link to={`${props.match.url}/my-work`} role="button" className="btn btn-link">
-        Individual Work
-      </Link>
-      <Route exact path={`${props.match.url}/project`} component={Project} />
-      <Route exact path={`${props.match.url}/my-work`} component={Homework} />
-
+      <Router>
+        <Linkbar />
+        <Route exact path="/project" component={Project} />
+        <Route exact path="/my-work" component={Homework} />
+      </Router>
 
     </section>
   )
