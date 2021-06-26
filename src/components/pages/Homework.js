@@ -91,7 +91,7 @@ function Homework() {
 
       <div class="row">
         <div class="col-md-6 homework">
-          <a href="https://drive.google.com/file/d/1nho_JsT15NoVYrZD1V_KKVB-p9wdJvzZ/preview" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/14m8UJ_DxuaN7g3TL18GP4zfX-_l4OKtM/view" target="_blank" rel="noreferrer">
             <img src="./Assets/employee-tracker.png" alt="employee tracker department budget view" />
           </a>
           <div className="hw-cap">
@@ -118,7 +118,7 @@ function Homework() {
 
       <div class="row">
         <div class="col-md-6 homework">
-          <a href="https://drive.google.com/file/d/1aIvexVPLv0fNYhxhRUbo314YsrOxEjaT/view" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1yUw9DJLjVVZRNFjpa23rZ0-8LRHwO-DD/view" target="_blank" rel="noreferrer">
             <img src="./Assets/employee-team.png" alt="employee team generated desktop view" />
           </a>
           <div className="hw-cap">
@@ -130,7 +130,7 @@ function Homework() {
           </p>
         </div>
         <div class="col-md-6 homework">
-          <a href="https://drive.google.com/file/d/1oj2ipnA7n120UpnVb8gouwQNRhDQUU_o/view" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1uYULard9VUnT8aOY83DiKTmFyg_2WsSt/view" target="_blank" rel="noreferrer">
             <img src="./Assets/readme.gif" alt="readme generator" />
           </a>
           <div className="hw-cap">
