@@ -161,10 +161,11 @@ h2 {
 
 .bottom-left {
   position: absolute;
-  bottom: 25px;
+  top: 250px;
   left: 10%;
   background-color: #03747e;
   border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   padding: 5px;
 }
 
@@ -182,16 +183,33 @@ h2 {
 }
 
 .project p {
-  background-color: #03747e;
+  color: #03747e;
   margin: auto;
   width: 80%;
-  padding-bottom: 5px;
+  font-size: small;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .project img {
   width: 80%;
   height: 300px;
-  border-bottom-right-radius: 0;
+}
+
+
+/* Individual Work */
+.homework img {
+  width: 300px;
+  height: 200px;
+}
+
+.homework p {
+  color: #03747e;
+  margin: auto;
+  font-size: small;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  text-align: center;
 }
 
 /* Contact Page */
