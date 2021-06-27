@@ -1,6 +1,7 @@
 import React from "react";
 
 function IndividualProject(props) {
+  console.log(props)
     return (
       <div className="project">
         <a href={props.deploy} target="_blank" rel="noreferrer">
