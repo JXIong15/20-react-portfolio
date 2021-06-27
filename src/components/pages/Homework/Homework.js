@@ -29,7 +29,6 @@ function Homework(props) {
       hwList[14][1], hwList[15][1]
     ]
   ]
-  // console.log(displayHW);
 
   return (
     <div className="work">
@@ -38,25 +37,13 @@ function Homework(props) {
       <p>Click on the image/demo to view the app.</p>
       <p>Click on the title to view the GitHub repo.</p>
 
-
       {displayHW.map((hw) => {
-        console.log(hw)
         return (
           <div>
             <IndividualHW
               key={hw[0].id}
               hwArr={hw}
             />
-            {/* <IndividualHW
-              key={hw[1].id}
-              deploy={hw[1].deploy}
-              img={hw[1].img}
-              alt={hw[1].alt}
-              repo={hw[1].repo}
-              name={hw[1].name}
-              tech={hw[1].tech}
-              desc={hw[1].desc}
-            /> */}
           </div>
         )
       })}
