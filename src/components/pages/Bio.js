@@ -24,7 +24,7 @@ function Bio() {
             </ul>
             <li><span>Stanford University</span>, 2019</li>
               <ul>
-                <li><span>Bachelors of Science</span> in <a href="https://symsys.stanford.edu/">Symbolic Systems</a></li>
+                <li><span>Bachelors of Science</span> in <a href="https://symsys.stanford.edu/" target="_blank" rel="noreferrer">Symbolic Systems</a></li>
               </ul>
           </ul>
         </ul>

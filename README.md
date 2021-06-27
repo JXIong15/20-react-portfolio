@@ -1,26 +1,92 @@
 # Unit 20 React Homework: React Portfolio
-
-## To-Do
-
-* Issues: when reloading on "group projects" and "individual work", page doesn't load. have to click on navbar and navigate back to projects in order for them to show.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
+## Table of Contents
+* [Introduction](#introduction)
+* [Functionality](#functionality)
+* [Tasks Completed](#tasks-completed)
+* [Technologies Used](#technologies-used)
+* [Installations](#installations)
+* [Demo](#demo)
+* [Known Issues](#known-issues)
+* [Future Ideas](#future-ideas)
+* [Sources](#sources)
+* [License](#license)
 
 
+ ## Introduction
+An online portfolio developed using ReactJS. The portfolio contains a biography, work page with current coding projects, and a contact page with a submittable email form.
+* Deployed App: https://jxiong15.github.io/20-react-portfolio/
+* GitHub: https://github.com/JXIong15/20-react-portfolio
+<p align="center"><img src="./public/Assets/react.png" width="100%" stylealt="homepage/bio page"/></p>
 
 
-#### Design
+## Functionality
+* When the user loads the page, they are shown a biography of the portfolio.
+* Clicking on the navtabs at the top allow for page changes.
+* In the My Work section, there are two buttons. Clicking on either button will display either Group Projcts or Individual Work.
+  * Each project's image is clickable to the deployed app.
+  * The title is clickable to the GitHub Repo.
+* In the Contact Page, the contact information is clickable.
+  * The Formspree form can be filled out to send out inquiries.
 
 
+## Tasks Completed
+* Dowloaded necessary NPM packages with `npm install` on the Command Line
+* Created `src` and necessary folders for development
+* Created a React-Router nav bar to display different pages.
+* Created a header, footer, and body using React.
+* In the work page, GitHub profile is cliackable.
+* On the contact page, links are clickable.
+  * Form is created by Formspree and will send emails once submitted.
 
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
+<p align="center"><img src="./public/Assets/contact.png" width="100%" stylealt="contact page with contact form"/>Contact Page</p>
 
 
+## Technologies Used
+* GitHub Pages
+* React
+* Props-States
+* NavLinks/Routers
+* FormSpree
 
 
-### Updated LinkedIn Profile 
+## Installations
+* FormSpree React
+* React-Router-Dom
+* React
+* GH-Pages
 
-Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## Demo
+* App Demo:
+<p align="center"><img src="./public/Assets/demo.gif" width="100% height="100%" stylealt="app demo"/></p>
+
+* Mobile Images:
+<p align="center">
+  <img src="./public/Assets/mobile-abt.png" width="30% height="100%" stylealt="app mobile demo"/>
+  <img src="./public/Assets/mobile-individual-work.png" width="30% height="100%" stylealt="app mobile demo"/>
+  <img src="./public/Assets/20-mobile-contact.png" width="30% height="100%" stylealt="app mobile demo"/>
+</p>
+
+
+## Known Issues
+* when reloading on "group projects" and "individual work", page doesn't load. have to click on navbar and navigate back to projects in order for them to show.
+
+
+## Future Ideas
+* Change page layout to not look so simple
+
+
+## Sources
+* NPM Packages: https://www.npmjs.com/
+* GitHub Pages: https://pages.github.com/
+* FormSpree: https://formspree.io/
+* React: https://reactjs.org/
+
+
+## License
+Licensed under the [MIT License](LICENSE).
+
+<p align="center">© 2021 Trilogy, Northwestern Coding Bootcamp</p>

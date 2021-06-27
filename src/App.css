@@ -152,6 +152,7 @@ h2 {
   margin-bottom: 0;
 }
 
+
 /* Projects */
 .project,
 .row {
@@ -288,6 +289,7 @@ form button {
   height: 75px;
   padding: 10px;
   font-size: xx-large;
+  box-shadow: 5px 7px #b1b1b1;
 }
 
 .contact-form a {
