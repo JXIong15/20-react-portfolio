@@ -1,7 +1,82 @@
+/* for minimizing window */
+@media only screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+     }
+     section h2 {
+         text-align: center;
+     }
+     .about img {
+         height: auto;
+         width: 70%;
+         margin: auto;
+         margin-top: 20px;
+         margin-bottom: 20px;
+     }
+     .about ul,
+     .linkbar {
+        list-style-type: none;
+        margin:0;
+        padding: 0;
+     }
+     .about ul ul li {
+         margin-left: 20px
+     }
+     .about ul ul ul li {
+         margin-left: 40px
+     }
+     .collage {
+         width: 100%;
+     }
+     h1, h2, h3, p, li, .caption, a {
+         font-size: large;
+     }
+     .contact-form img {
+         width: 80%;
+         height: auto;
+         margin-top: 20px;
+     }
+     .contact ul {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     .project img {
+         width: 100%;
+     }
+     .bottom-left,
+     .bottom-left a{
+         border-top-left-radius: 10px;
+         border-bottom-left-radius: 0;
+         left:0;
+         top: 15px;
+         width: 100%;
+     }
+     .hw-cap {
+         position: static;
+         border-top-left-radius: 0;
+         border-bottom-left-radius: 10px;
+         border-top-right-radius: 10px;
+         border-bottom-right-radius: 10px;
+         margin-top: -15px;
+         padding-top: 15px
+     }
+}
+
 /* For mobile/smaller screen devices */
 @media only screen and (max-device-width: 768px) {
     .about {
        flex-direction: column;
+    }
+    section h2 {
+        text-align: center;
+    }
+    .about img {
+        height: auto;
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .about ul,
     .linkbar {
@@ -25,6 +100,11 @@
         width: 80%;
         height: auto;
         margin-top: 20px;
+    }
+    .contact ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .project img {
         width: 100%;
