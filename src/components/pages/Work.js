@@ -4,7 +4,6 @@ import Project from "./Project/Project";
 import Homework from "./Homework/Homework";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
-
 function Work(props) {
   return (
     <section>
@@ -45,7 +44,5 @@ function Work(props) {
     </section>
   )
 };
-
-
 
 export default Work;
