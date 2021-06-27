@@ -8,7 +8,7 @@ import Contact from "./pages/Contact/Contact";
 function Body() {
   return (
     <div>
-      <Router>
+      <Router basename="/20-react-portfolio/">
         <div>
           <NavBar />
           <Route exact path="/" component={Bio} />
