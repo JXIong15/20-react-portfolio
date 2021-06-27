@@ -83,6 +83,7 @@ An online portfolio developed using ReactJS. The portfolio contains a biography,
 
 ## Future Ideas
 * Change page layout to not look so simple
+* Update Resume
 
 
 ## Sources
