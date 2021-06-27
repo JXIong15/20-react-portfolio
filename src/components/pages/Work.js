@@ -27,7 +27,7 @@ function Work() {
         on their pet's criteria. Now, users will be sure that they are matching with equal animal-loving people.
       </p>
 
-      <Router>
+      <Router basename="/20-react-portfolio/">
         <Linkbar />
         <Route exact path="/project" component={Project} />
         <Route exact path="/my-work" component={Homework} />
