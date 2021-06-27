@@ -3,6 +3,7 @@ import Heading from "./components/Heading";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import './App.css';
+import './Mobile.css';
 
 function App() {
   return (

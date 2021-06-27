@@ -1,0 +1,21 @@
+/* for minimizing window */
+
+
+
+/* For mobile/smaller screen devices */
+@media only screen and (max-device-width: 750px) {
+    .about {
+       flex-direction: column;
+    }
+    .about ul {
+       list-style-type: none;
+       margin:0;
+       padding: 0;
+    }
+    .about ul ul li {
+        margin-left: 20px
+    }
+    .about ul ul ul li {
+        margin-left: 40px
+    }
+}
