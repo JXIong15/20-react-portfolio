@@ -81,7 +81,7 @@ span {
 .collage {
   display: flex;
   margin: auto;
-  max-width: 80%;
+  width: 80%;
   height: auto;
 }
 

@@ -18,4 +18,10 @@
     .about ul ul ul li {
         margin-left: 40px
     }
+    .collage {
+        width: 100%;
+    }
+    h1, h2, h3, p, li {
+        font-size: x-large;
+    }
 }
