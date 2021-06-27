@@ -10,7 +10,7 @@ function Homework() {
 
       <div className="row">
         <div className="col-md-6 homework">
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="http://jxiong15.github.io/20-react-portfolio" target="_blank" rel="noreferrer">
             <img src="./Assets/react.png" alt="react portfolio homepage" />
           </a>
           <div className="hw-cap">

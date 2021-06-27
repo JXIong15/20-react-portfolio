@@ -248,6 +248,7 @@ form {
 .contact-form ul li {
   list-style-type: none;
   text-align: left;
+  color: black;
 }
 
 form input,

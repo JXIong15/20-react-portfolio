@@ -5,17 +5,17 @@ function NavBar() {
   return (
     <ul className="nav navbar">
       <li className="nav-item">
-        <Link to="/20-react-portfolio/">
+        <Link to="/">
           About Me
         </Link>
       </li>
       <li className="nav-item">
-        <Link to="/20-react-portfolio/work">
+        <Link to="/work">
           My Work
         </Link>
       </li>
       <li className="nav-item">
-        <Link to="/20-react-portfolio/contact">
+        <Link to="/contact">
           Contact
         </Link>
       </li>
