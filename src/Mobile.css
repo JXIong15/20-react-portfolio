@@ -7,7 +7,8 @@
     .about {
        flex-direction: column;
     }
-    .about ul {
+    .about ul,
+    .linkbar {
        list-style-type: none;
        margin:0;
        padding: 0;
@@ -21,7 +22,24 @@
     .collage {
         width: 100%;
     }
-    h1, h2, h3, p, li {
-        font-size: x-large;
+    h1, h2, h3, p, li, .caption, a {
+        font-size: large;
+    }
+    .contact-form img {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .project img {
+        width: 100%;
+    }
+    .bottom-left,
+    .bottom-left a{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        /* position: static; */
+        left:0;
+        top: 15px;
+        width: 100%;
     }
 }
