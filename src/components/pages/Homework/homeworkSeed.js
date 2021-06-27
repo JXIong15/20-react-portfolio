@@ -7,7 +7,8 @@ export default [
         repo: "https://github.com/JXIong15/20-react-portfolio",
         name: "React Portfolio",
         tech: "React, GitHub Pages",
-        desc: "This current Portfolio created using React."
+        desc: "This current Portfolio created using React.",
+        isOdd: false
     },
     {
         id: 19,
@@ -17,7 +18,8 @@ export default [
         repo: "https://github.com/JXIong15/19-employee-directory",
         name: "Employee Directory",
         tech: "GitHub Pages, React, Props-States, Axios",
-        desc: "A manager can look up non-sensitive employee data that can be sorted and filtered."
+        desc: "A manager can look up non-sensitive employee data that can be sorted and filtered.",
+        isOdd: true
     },
     {
         id: 18,
@@ -27,7 +29,8 @@ export default [
         repo: "https://github.com/JXIong15/18-budget-tracker",
         name: "Budget Tracker",
         tech: "Manifest, Service-Worker, Heroku, MongoDB",
-        desc: "User can track a budget that will also save when offline."
+        desc: "User can track a budget that will also save when offline.",
+        isOdd: false
     },
     {
         id: 17,
@@ -37,7 +40,8 @@ export default [
         repo: "https://github.com/JXIong15/17-workout-tracker",
         name: "Workout Tracker",
         tech: "Routes, Heroku, MongoDB, Express",
-        desc: "User can view and create daily workouts as well as see their stats from the past 7 days."
+        desc: "User can view and create daily workouts as well as see their stats from the past 7 days.",
+        isOdd: true
     },
     {
         id: 14,
@@ -47,7 +51,8 @@ export default [
         repo: "https://github.com/JXIong15/14-tech-blog",
         name: "Tech-Blog",
         tech: "Handlebars, MySQL, Heroku, Insomnia",
-        desc: "Allows users to view, edit, and make blog posts. Users can also create accounts and track their blog posts through there."
+        desc: "Allows users to view, edit, and make blog posts. Users can also create accounts and track their blog posts through there.",
+        isOdd: false
     },
     {
         id: 13,
@@ -57,7 +62,8 @@ export default [
         repo: "https://github.com/JXIong15/13-ecommerce",
         name: "ECommerce",
         tech: "JS, Node, MySQL, Insomnia",
-        desc: "Uses Node, MySql, Insomnia, and the command line to sync the backend server to the MySql data. Routes the database appropriately."
+        desc: "Uses Node, MySql, Insomnia, and the command line to sync the backend server to the MySql data. Routes the database appropriately.",
+        isOdd: true
     },
     {
         id: 12,
@@ -67,7 +73,8 @@ export default [
         repo: "https://github.com/JXIong15/12-employee-tracker",
         name: "Employee Tracker",
         tech: "JS, MySQL, Node",
-        desc: " Generates an employee database. The database displays departments, roles, and individual employee information."
+        desc: " Generates an employee database. The database displays departments, roles, and individual employee information.",
+        isOdd: false
     },
     {
         id: 11,
@@ -77,7 +84,8 @@ export default [
         repo: "https://github.com/JXIong15/11-note-taker",
         name: "Note Taker",
         tech: "JS, Node, JSON, Heroku",
-        desc: "Users can create, save, and delete notes. The application is deployed on a Heroku live server."
+        desc: "Users can create, save, and delete notes. The application is deployed on a Heroku live server.",
+        isOdd: true
     },
     {
         id: 10,
@@ -87,7 +95,8 @@ export default [
         repo: "https://github.com/JXIong15/10-employee",
         name: "Employee Team Generator",
         tech: "HTML, JS, Express, Node",
-        desc: "Generates a employee cards for the manager's team from the user-specified inputs."
+        desc: "Generates a employee cards for the manager's team from the user-specified inputs.",
+        isOdd: false
     },
     {
         id: 9,
@@ -97,7 +106,8 @@ export default [
         repo: "https://github.com/JXIong15/09-readme-generator",
         name: "ReadMe Generator",
         tech: "JS, Node, Inquirer",
-        desc: "Uses node and the command line to generate a README file along with a LICENSE file for the user-specified inputs."
+        desc: "Uses node and the command line to generate a README file along with a LICENSE file for the user-specified inputs.",
+        isOdd: true
     },
     {
         id: 6,
@@ -107,7 +117,8 @@ export default [
         repo: "https://github.com/JXIong15/06-weather",
         name: "Weather Dashboard",
         tech: "HTML, CSS, JS, API",
-        desc: "The user can get the current weather information of any place and the next five day forecast. The previous 10 searches are stroed in a column on the left of the page."
+        desc: "The user can get the current weather information of any place and the next five day forecast. The previous 10 searches are stroed in a column on the left of the page.",
+        isOdd: false
     },
     {
         id: 5,
@@ -117,7 +128,8 @@ export default [
         repo: "https://github.com/JXIong15/05-calendar",
         name: "Day Planner",
         tech: "HTML, CSS, JS, localStorage",
-        desc: "Allows user to input tasks for the workday. Background is highlighted in colors to indicate whether that time has passed. The agenda is saved in local storage so that the user can come back to it at any time."
+        desc: "Allows user to input tasks for the workday. Background is highlighted in colors to indicate whether that time has passed. The agenda is saved in local storage so that the user can come back to it at any time.",
+        isOdd: true
     },
     {
         id: 4,
@@ -127,7 +139,8 @@ export default [
         repo: "https://github.com/JXIong15/04-codequiz",
         name: "Code Quiz (WORK IN PROGRESS)",
         tech: "HTML, CSS, JS",
-        desc: "The Code Quiz is a quiz users can take to test their knowledge on common coding terms and facts. Users can view high scores as well as input their initials to save their scores."
+        desc: "The Code Quiz is a quiz users can take to test their knowledge on common coding terms and facts. Users can view high scores as well as input their initials to save their scores.",
+        isOdd: false
     },
     {
         id: 3,
@@ -137,7 +150,8 @@ export default [
         repo: "https://github.com/JXIong15/03-create-password",
         name: "Password Generator",
         tech: "JS",
-        desc: "Generates a random user specific password based on a user-given criteria."
+        desc: "Generates a random user specific password based on a user-given criteria.",
+        isOdd: true
     },
     {
         id: 2,
@@ -147,7 +161,8 @@ export default [
         repo: "https://github.com/JXIong15/02-profile/",
         name: "HTML Profile",
         tech: "HTML, CSS",
-        desc: "A CSS and HTML online portfolio of my work as a junior software developer."
+        desc: "A CSS and HTML online portfolio of my work as a junior software developer.",
+        isOdd: false
     },
     {
         id: 1,
@@ -157,6 +172,7 @@ export default [
         repo: "https://github.com/JXIong15/01-horiseon/",
         name: "Editing Existing Code",
         tech: "HTML",
-        desc: "A pseudo webpage for students to fix certain links and make more accessible."
+        desc: "A pseudo webpage for students to fix certain links and make more accessible.",
+        isOdd: true
     }
 ]
