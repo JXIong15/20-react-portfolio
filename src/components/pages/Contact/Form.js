@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 function Form() {
   const [state, handleSubmit] = useForm("moqylqpk");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p>Message Sent!</p>;
   }
   return (
       <form onSubmit={handleSubmit} className="col-md-6">
