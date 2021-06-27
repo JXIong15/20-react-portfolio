@@ -1,7 +1,7 @@
 import React from "react";
 import Linkbar from "../Linkbar";
-import Project from "./Project";
-import Homework from "./Homework";
+import Project from "./Project/Project";
+import Homework from "./Homework/Homework";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
 
@@ -30,11 +30,16 @@ function Work(props) {
         <Linkbar />
         <Route 
           exact path="/project"
-          render={ p => 
-            (<Project {...props.state.projList} />)
-          }
+          render={ p => (
+            <Project {...props.state.projList} />
+          )}
           />
-        <Route exact path="/my-work" component={Homework} hwList={props.hwList}/>
+        <Route 
+          exact path="/my-work" 
+          render={ p => (
+            <Homework {...props.state.hwList} />
+          )}
+        />
       </Router>
 
     </section>

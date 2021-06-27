@@ -1,6 +1,8 @@
 import React from "react";
+import IndividualHW from "./IndividualHW";
 
-function Homework() {
+function Homework(props) {
+  const hwList = Object.entries(props[0].hwList);
   return (
     <div className="work">
       <h2>Individual Work</h2>
@@ -8,7 +10,21 @@ function Homework() {
       <p>Click on the image/demo to view the app.</p>
       <p>Click on the title to view the GitHub repo.</p>
 
-      <div className="row">
+      {hwList.map((hw) => {
+        return <IndividualHW
+          key={hw[1].id}
+          deploy={hw[1].deploy}
+          img={hw[1].img}
+          alt={hw[1].alt}
+          repo={hw[1].repo}
+          name={hw[1].name}
+          tech={hw[1].tech}
+          desc={hw[1].desc}
+        />
+      })}
+
+
+      {/* <div className="row">
         <div className="col-md-6 homework">
           <a href="http://jxiong15.github.io/20-react-portfolio" target="_blank" rel="noreferrer">
             <img src="./Assets/react.png" alt="react portfolio homepage" />
@@ -200,8 +216,8 @@ function Homework() {
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-6 homework">
+      <div class="row"> */}
+        {/* <div class="col-md-6 homework">
           <a href="https://jxiong15.github.io/02-profile/" target="_blank" rel="noreferrer">
             <img src="./Assets/Header.png" alt="this webpage" />
           </a>
@@ -225,8 +241,8 @@ function Homework() {
             A pseudo webpage for students to fix certain links and make more accessible.
           </p>
         </div>
-      </div>
-    </div>
+      </div>*/}
+    </div> 
   );
 }
 

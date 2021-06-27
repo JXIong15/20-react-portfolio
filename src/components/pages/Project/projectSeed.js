@@ -1,3 +1,4 @@
+// Project Seed
 export default[
     {
         id: 2,
@@ -25,5 +26,4 @@ export default[
             pop up a notification within the browser of a location randomly generated via the program. If the user does not like that location
             they may choose to input the constraints again to generate another restaurant.`
     }
-
 ]
