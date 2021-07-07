@@ -1,5 +1,15 @@
 export default [
     {
+        id: 21,
+        deploy: "https://google-books-jx.herokuapp.com/",
+        img: "./Assets/google-books-demo.gif",
+        alt: "google books demo",
+        repo: "https://github.com/JXIong15/21-google-books",
+        name: "Google Books Search",
+        tech: "React, Heroku, MongoDB",
+        desc: "Users can look up and save books to their collection."
+    },
+    {
         id: 20,
         deploy: "http://jxiong15.github.io/20-react-portfolio",
         img: "./Assets/react.png",
