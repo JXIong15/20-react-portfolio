@@ -29,7 +29,7 @@ function Contact() {
                         Visit <a href="https://www.linkedin.com/in/jou-xiong-109035112/" target="_blank" rel="noreferrer">LinkedIn</a>
                     </li>
                     <li>
-                        Download <a href="./Assets/Coding-Resume.pdf" download="Xiong, Jou - Resume">Resume</a>
+                        <a href="https://docs.google.com/document/d/1dIlduOhAh07XSEyG5wiyCZyHChBc8nFsX4YOLwXa9KA/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                     </li>
                     <a href="https://formspree.io/" target="_blank" rel="noreferrer"><img src="./Assets/form.png" alt="formspree logo" /></a>
                 </ul>
