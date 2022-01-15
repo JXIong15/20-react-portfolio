@@ -7,7 +7,8 @@ function Project(props) {
   return (
     <div className="work">
       <h2>Projects</h2>
-      <p>The most recent projects are at the top of the list.</p>
+      <p>The most recent projects are at the top of the list. These consists of group projects through my Bootcamp as well as 
+        coding challenges from potential employers.</p>
       <p>Click on the image/demo to view the app.</p>
       <p>Click on the title to view the GitHub repo.</p>
 

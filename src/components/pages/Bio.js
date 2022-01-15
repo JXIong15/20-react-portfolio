@@ -12,9 +12,10 @@ function Bio() {
           <li><span>Desired Locations: </span></li>
           <ul>
             <li>Milwaukee, WI</li>
-            <li>San Jose, CA</li>
+            <li>California</li>
             <li>Chicago, IL</li>
-            <li>Seattle, WA</li>
+            <li>Washington</li>
+            <li>Texas</li>
           </ul>
           <li><span>Education: </span></li>
           <ul>

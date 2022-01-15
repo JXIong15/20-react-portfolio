@@ -14,15 +14,8 @@ function Work(props) {
       <p>
         Currently, these are projects I have been working on in my coding bootcamp through Northwestern
         University. I will be adding more projects as I complete them. I have previous
-        coding experience in Java and C++. With the bootcamp, I am learning how to develop a full-stack web
-        application.
-      </p>
-      <p>
-        We are on our third and final group project: Pinder. Pinder is like Tinder, except pets are taken
-        into account. There are many dating apps in the world with various different target groups. With
-        this generation of love-seekers treating their pets like children, Pinder is designed to take into
-        account furry family members. Users can set filters on whuch users they'd like to iinteract with based
-        on their pet's criteria. Now, users will be sure that they are matching with equal animal-loving people.
+        coding experience in Java and C++. With the bootcamp, I learned how to develop a full-stack web
+        application. Recently, I am working on my Python skills with Django.
       </p>
 
       <Router basename="/20-react-portfolio/">

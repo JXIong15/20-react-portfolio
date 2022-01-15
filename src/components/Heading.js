@@ -4,7 +4,7 @@ function Heading() {
   return (
     <header>
       <h1>Jou Xiong's Online Portfolio</h1>
-      <p>Updated: June 2021</p>
+      <p>Updated: January 2022</p>
     </header>
   );
 }
